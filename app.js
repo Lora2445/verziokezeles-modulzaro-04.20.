@@ -1,4 +1,6 @@
-    console.log("Az oldal sikeresen betöltődött")
+window.addEventListener("load", (event) => { 
+   console.log("Az oldal sikeresen betöltődött");
+});   
 
 const musicContainer = document.getElementById("music-container");
 const playBtn = document.getElementById("play");
